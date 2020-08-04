@@ -8,16 +8,15 @@
 
 struct Pupil
 {
-	unsigned int id;		// id
-	char surName[30];		// Фамилия
-	int numberMark;			// количество оценок ученика
-	int* marks;				// указатель на динамический массив с оценками
-	double middleMark;		// среднее арифметическое
-	int isFull;				// заполнение структуры
+	unsigned int id;		
+	char surName[30];		
+	int numberMark;			
+	int* marks;				
+	double middleMark;		
+	int isFull;				
 };
 typedef struct Pupil Pupil;
 
-// Внешняя переменная
 int numOfPupil;
 
 // Прототипы функций
