@@ -19,7 +19,6 @@ typedef struct Pupil Pupil;
 
 int numOfPupil;
 
-// Прототипы функций
 int Application(void);
 Pupil* CreatePupilArray();
 void AddNewPupil(Pupil* PupilsPtr);
